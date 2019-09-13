@@ -1,0 +1,73 @@
+header{
+    width: 25%;
+    height: 800px;
+    position: fixed;
+}
+
+.name_website{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.name_website span{
+    font-size: 20px;
+}
+
+.navbar_section {
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, white 50%, #0E0E0E 50%);
+    transition: background-position 1s;
+    border-bottom:0.5px solid grey;
+}
+
+.navbar_section:hover  {
+    width: 100%;
+    transition: 0.2s;
+    background-position: -100% 0;
+    color:white;
+}
+
+.navbar_section a {
+    width: 95%;
+    color: black;
+    text-decoration: none;
+    padding: 25px 10px 25px 10px;
+    transition: 1s;
+    font-size: 30px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_section :hover a{color: white; transition: 0.1s}
+
+.MediaRecources{
+    width: 100%;
+    height: 26%;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-top: 20px; */
+
+}
+.MediaRecources ul {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.MediaRecources ul li a {
+    color: white;
+}
+.MediaRecources p {
+    font-size: 14px;
+    text-align: center;
+}
